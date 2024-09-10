@@ -1,0 +1,42 @@
+There are Three types of script
+
+1) Declaration Tag <%! int x=10; String name="jhon"; public void show(){}; %>  declare varible and method etc..
+
+2) Expression Tag  <%= name %>  print name value
+
+3) Script Tag <% req.getParameter(); %>  declare predine method or java code as script
+
+
+
+There are Three types of Script
+
+1) Page Directive
+2) include Directive
+3) taglib Directive
+
+1)Page Directives :- 
+-> JSP page directive is used to define the properties applying the JSP page, such as the size of the allocated buffer, 
+imported packages, and classes/interfaces, defining what type of page it is
+
+<%@page attribute = "value"%>
+
+Attribute type 
+   => import: This tells the container what packages/classes are needed to be imported into the program.
+   => contentType: This defines the format of data that is being exchanged between the client and the server.
+   
+
+   
+2) include Directive :- 
+-> JSP include directive is used to include other files into the current jsp page. These files can be html files, other sp files etc.
+
+<%@include file = "file location"%>
+
+
+
+
+
+
+
+
+
+
